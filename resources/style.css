@@ -30,6 +30,10 @@ header {
     
     
 }
+/* -------------------- */
+
+
+
 
 h1 {
     color: #fff;
@@ -110,6 +114,9 @@ margin-left: 50px;
     float: right;
     margin-top: 55px;
 }
+ul{
+    float: left;
+}
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
@@ -140,7 +147,7 @@ section {
 }
 
 
-
+/* ------------------ */
 h1,
 h2,
 h3 {
@@ -231,6 +238,10 @@ a:hover,
 a:visited {
     border-bottom: 1px solid transparent;
 }
+
+
+
+/* ---------------- */
 header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0,0,0,0.7))), url(./img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)), url(./img/hero.jpg);
@@ -294,6 +305,11 @@ header {
     font-size: 200%;
     color: #fff;
 }
+
+
+
+
+/* ------------ */
 .section-meals {
     padding: 0;
 }
@@ -334,6 +350,8 @@ header {
 }
 
 
+/*--------------------------*/
+
 .section-steps {
     
     background-color: #f4f4f4;
@@ -342,7 +360,7 @@ header {
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
+    margin-top: 3px;
 }
 
 .steps-box:last-child {
@@ -379,4 +397,187 @@ header {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* --------------- */
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+}
+.box img:hover {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    transform: scale(1.03);
+
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top:  -4px;
+}
+
+/* ----------------- */
+
+.section-customer {
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+url(img/back-customers.jpg);
+background-size: cover;
+color: #fff;
+background-attachment: fixed;
+}
+blockquote{
+    padding: 1px;
+    font-size: italic;
+    line-break: 145%;
+}
+cite{
+    font: 90%;
+    margin-top: 25px;
+    display: block;
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+blockquote{
+    padding: 1px;
+    font-size: italic;
+    line-break: 145%;
+    position: relative;
+}
+
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -45px;
+    left: -5px;
+}
+
+/* -------------- */
+
+.section-plans {
+    
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    -webkit-box-shadow: 0 2px 5px #cacaca;
+            box-shadow: 0 2px 5px #cacaca;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+
+.plan-box div:first-child {
+    background-color: rgb(236, 235, 235);
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+/* ---------- */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+*:focus {
+    outline: none;
+}
+/* ------------- */
+footer {
+    padding: 50px;
+    background-color: rgb(43, 42, 42);
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+.icon-ion{
+    color: #e67e22;
+}
+
+footer p {
+    color: #888;
+    text-align: center;
+    font-size: 90%;
+    margin-top: 30px;
+    padding-bottom: 40px;
 }
